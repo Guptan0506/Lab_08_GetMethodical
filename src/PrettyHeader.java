@@ -10,7 +10,7 @@ public class PrettyHeader {
 
     public static void prettyHeader(String msg) {
         int width = 60;
-        int padding = (width - 6 - msg.length()) / 2; // 6 asterisks for padding (3 on each side)
+        int padding = (width - 6 - msg.length()) / 2;
 
         System.out.println("*".repeat(width));
         System.out.print("***");
