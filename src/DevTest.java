@@ -21,7 +21,7 @@ public class DevTest {
         System.out.println("You entered: " + rangedDouble);
 
         boolean confirm = SafeInput.getYNConfirm(in, "Do you want to continue?");
-        System.out.println("Your choice: " + (confirm ? "Yes" : "No"));
+        System.out.println("Your choice: " + (confirm ? "True" : "False"));
 
         String regExString = SafeInput.getRegExString(in, "Enter a string matching the pattern [a-z]{3}", "[a-z]{3}");
         System.out.println("You entered: " +regExString);
