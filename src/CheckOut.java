@@ -11,6 +11,6 @@ public class CheckOut {
             totalPrice += priceOfItem;
             moreItems = SafeInput.getYNConfirm(in, "Do you have more items? [y / n] ");
         }
-        System.out.println("Total cost: $%.2f\n"+ totalPrice);
+        System.out.println("Total cost: $"+ totalPrice);
     }
 }
